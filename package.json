@@ -1,0 +1,34 @@
+{
+  "name": "Rockcreek_HOA_Paint_Selector",
+  "description": "A basic site to showcase the Rockcreek paint colors.",
+  "version": "0.1.1",
+  "homepage": "https://github.com/jzabel/RockCreekHOAPaint",
+  "author": {
+    "name": "Jeff Zabel",
+    "url": "https://github.com/jzabel"
+  },
+  "contributors": [
+    {
+      "name": "Jeff Zabel",
+      "url": "https://github.com/jzabel"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "ttps://github.com/jzabel/RockCreekHOAPaint.git"
+  },
+  "bugs": {
+    "url": "ttps://github.com/jzabel/RockCreekHOAPaint/issues"
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
+  "scripts": {
+    "test": "grunt assemble"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "assemble": "~0.4.4"
+  }
+}
